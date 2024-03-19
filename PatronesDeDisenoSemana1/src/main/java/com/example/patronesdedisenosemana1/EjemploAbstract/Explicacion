@@ -1,0 +1,14 @@
+En este ejemplo implementaremos el patron prototype mediante es uso de una clase abstracta.
+La cual otras clases la heredan
+
+La idea es que la clase que queramos clonar herede la funcion abstracta de su padre y sea implementada en la clase.
+
+Esta tambien hace posible que tengamos una lista usando esta clase abstracta pero clonar los hijos complejos
+con toda su informacion sin nisiquiera conocer las clases de los mismo.
+
+En este caso tenemos vehiculo como una clase abstracta.
+Carro y Camion heredan de Vehiculo
+
+Y cada uno implementa su version de clone().
+
+Ahora podemos recorrer una lista y hacer un clone completo de todo sin nisiquiera conocer a las clases Camion y Carro.

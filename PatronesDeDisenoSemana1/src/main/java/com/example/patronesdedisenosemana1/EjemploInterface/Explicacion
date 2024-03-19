@@ -1,0 +1,5 @@
+En este ejemplo implementaremos el patron prototype mediante es uso de una interface.
+
+La idea es que la clase que queramos clonar implemente una interface que tenga un metodo clone()
+
+Este sera @override por la clase principal y podra ser llamada por el cliente para tener una copia de la clase.
