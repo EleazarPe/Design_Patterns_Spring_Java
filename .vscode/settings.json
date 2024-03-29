@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
-        "Adapter/src/main/java/com/example/adapter",
-        "demo/src/main/java/com/example/demo"
+        "demo/src/main/java/com/example/demo",
+        "decorator/src/main/java/com/example/decorator"
     ],
     "java.debug.settings.onBuildFailureProceed": true,
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.compile.nullAnalysis.mode": "automatic"
 }
