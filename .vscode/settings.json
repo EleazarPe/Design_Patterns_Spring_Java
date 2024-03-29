@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "Adapter/src/main/java/com/example/adapter",
+        "demo/src/main/java/com/example/demo"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
