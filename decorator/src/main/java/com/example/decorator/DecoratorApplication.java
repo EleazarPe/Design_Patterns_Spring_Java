@@ -7,7 +7,7 @@ import com.example.decorator.FacebookDecorator;
 import com.example.decorator.SlackDecorator;
 
 /*
- Con DecoratorClient, los componentes se pueden envolver en múltiples 
+ Con DecoratorApplication, los componentes se pueden envolver en múltiples 
  capas de decoradores, siempre que se acceda a todos los objetos a través 
  de la interfaz del componente.
  */
