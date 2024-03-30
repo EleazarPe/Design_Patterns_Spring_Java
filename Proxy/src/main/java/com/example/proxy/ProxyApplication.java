@@ -8,6 +8,13 @@ public class ProxyApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProxyApplication.class, args);
+
+		Youtube youtube = new ProxyYoutube();
+
+		youtube.descargarVideo("Gatos");
+		youtube.descargarVideo("Perros");
+		youtube.descargarVideo("Gatos");
+
 	}
 
 }
