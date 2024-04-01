@@ -25,6 +25,8 @@ public class Fruit implements ItemElement {
 		return this.name;
 	}
 	
+	// Las clases Fruit y Book tienen esta implementacion 
+	// para llamar a la funcion visit y realizar el calculo.
 	@Override
 	public int accept(ShoppingCartVisitor visitor) {
 		return visitor.visit(this);
