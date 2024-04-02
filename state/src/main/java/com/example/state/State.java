@@ -1,6 +1,0 @@
-package com.example.state;
-
-public interface State {
-
-	public void doAction();
-}
